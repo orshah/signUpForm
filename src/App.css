@@ -13,12 +13,7 @@ body {
   background-size: 100% 100% !important;
   animation: move 10s ease infinite;
   transform: translate3d(0, 0, 0);
-  background-image: linear-gradient(
-    45deg,
-    #ff9a9e 0%,
-    #fad0c4 99%,
-    #fad0c4 100%
-  );
+  background-image: linear-gradient(135deg, #ffa8a8 10%, #fcff00 100%);
   height: 45rem;
 }
 
