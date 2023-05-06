@@ -10,9 +10,18 @@ input {
   margin: 0rem auto;
   height: 4rem;
   border: 0;
+  outline: 0;
 }
 
 input::placeholder {
   font-size: large;
-  padding-left: 1rem;
+}
+
+input[type="text"] {
+  padding: 10px 10px;
+  font-size: large;
+}
+
+input:focus {
+  background: rgb(240, 235, 235);
 }
