@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  width: 90%;
+  border: none;
+  outline: none;
+  max-width: 342px;
+  margin: 0rem auto;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(252, 252, 255);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+.btn:hover {
+  background-image: linear-gradient(to top, #edccc3 0%, #dfa579 100%);
+}
